@@ -1,0 +1,262 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+.header1{
+width: 100%;
+height: 3rem;
+padding-bottom: 5rem;
+background-color:black;
+
+
+
+}
+
+.logo{
+    height: auto;
+    width: auto;
+    max-height: 4rem;
+    max-width: 20%;
+
+}
+.navLinks{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+
+.navLinks > a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+}
+.header2{
+    
+    background-color: #4a372c; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: cover;
+    width: 100%;
+    height: 5rem;  
+}
+.background{
+    text-align: center;
+  color: #f9f4f4;
+}
+.section3{
+    text-align: center;
+    background-color: #1a1a1a;
+    color: #f9f4f4;
+
+}
+/*testimonials section*/
+.section4{
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.testimonials{
+    
+    background-color: #0e0e10;
+}
+
+.christine{
+    background-image: url("./pictures/christine.jpg");
+}
+
+/*our members section*/
+
+.container{
+    justify-content: center;
+    display: flex;
+    background-color: #121214;
+    
+    }
+    
+    .card{
+        width: 270px;
+        margin:10px;
+        background-color:#f9f4f4;
+        border-radius: 15px;
+       
+    }
+    .card-image{
+        background-color: aqua;
+        height: 170px;
+        margin-bottom: 15px;
+        background-size: cover;
+        
+    }
+    
+    .car1{
+        background-image: url('./pictures/yellowcar.jpg');
+    }
+    .car2{
+        background-image: url('./pictures/greencar.jpg');
+    }
+    .orinda{
+        background-image: url('./pictures/orinda.jpg');
+
+    }
+    .loveryln1{
+        background-image: url('./pictures/loverlyn1.jpg');
+    }
+    .elgar{
+        background-image: url('./pictures/elgar.jpg');
+     
+    }
+    .card p{
+        padding: 15px;
+    }
+    .card a{
+        background-color: black;
+        color: white;
+        padding: 15px 20px;
+        display: block;
+        text-align: center;
+    
+    }
+    .card:hover{
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        transform:scale(1.03);
+        transition: all is ease;
+    }
+
+    /*section 5*/
+    .section6{
+        display: flex;
+        align-items: center;
+        margin: 0cm;
+        justify-content: center;
+        background-color: #121214;
+       
+    }
+    .content-navigation > input{
+        border: 1px solid #e0e2e6;
+        padding: 6px;
+        border-radius: 4px;
+        height: 2.4rem;
+        color: white;
+        width: 60%;
+        
+    }
+    .content-navigation{
+        
+        
+    }
+    .content-navigation a{
+        text-decoration:none;
+        justify-content: center;
+        line-height: 3%;
+
+    }
+
+/*styling the form*/
+form{
+    justify-content: center;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right:5% ;
+    background-color: #f2f2f2;
+
+}
+input{
+    margin: 15px 0;
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+   
+
+}
+input[type=text]{
+    
+    
+}
+input[type=email]{
+    
+
+}
+input[type=submit]{
+    
+    border-radius: 20px;
+    width: 30%;
+    justify-content: center;
+   background-color: #89d8e3;
+   color: black;
+   
+    
+
+}
+
+textarea{
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+.card > h2 {
+    text-align: center;
+}
+
+/*phone*/
+@media screen and (max-width:480px){
+   .header1{
+    background-color: grey;
+    height: 250px;
+    color: white;
+    border-radius: 15px;
+    line-height: 3%;
+   }
+   
+    .nav{
+        margin: auto 0;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+    }
+     #mylinks{
+        display: none;
+    }
+    .nav a{
+        color: white;
+        padding: 0;
+        line-height:1.2em ;
+        font-size:1em ;
+        height: 2.8em;
+        display: block;
+    } 
+    .nav a:hover{
+        background-color: #1a1a1a;
+    }
+    .nav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+    .container{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section6{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
